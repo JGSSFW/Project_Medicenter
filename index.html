@@ -1,0 +1,380 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=0" />
+    <title>MediCenter</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css">
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector (".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display =='flex') {
+                    document.querySelector(".menu nav ul").style.display ='none'
+                }else {
+                    document.querySelector(".menu nav ul").style.display ='flex'
+                }
+            })
+            window.addEventListener('resize', function () {
+                var largura = window.innerWidth;
+
+                if (largura > 600)
+                document.querySelector(".menu nav ul").removeAttribute('style');
+        });
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="">
+                    <img src="assets/images/logo.png" alt="">
+                </a>
+            </div>
+            
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"> </div>
+                        <div class="mm_line"> </div>
+                        <div class="mm_line"> </div>
+                    </div>
+                    
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">PAGES</a></li>
+                        <li><a href="">DEPARTMENTS</a></li>
+                        <li><a href="">TIMETABLE</a></li>
+                        <li><a href="">GALLERY</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>    
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="bannerTitle">Emergency Case</div>
+                    <div class="bannerDesc">If you need a doctor urgently outside of a medicenter opening hours, call emergency appointment number for emergency service.</div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner2">
+                    <div class="bannerTitle">Doctors Timetable</div>
+                    <div class="bannerDesc">Here in medicenter we have individual doctor's list. Click read more below to see services and current timetable for our doctors.</div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner3">
+                    <div class="bannerTitle">Opening Hours</div>
+                        <div class="horario">
+                            <p>Monday - Friday</p>
+                            <p>8:00 - 17:00</p>
+                        </div>
+                        <div class="horario">
+                            <p>Saturday</p>
+                            <p>9:30 - 17:30</p>
+                        </div>
+                        <div class="horario">
+                            <p>Sunday</p>
+                            <p>9:30 - 15:00</p>
+                        </div>
+                    <div class="bannerDesc"></div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widgetTitle">
+                    <div class="widgetTitleText">Latest News</div>
+                    <div class="widgetTitleBar"></div>
+                </div>
+                <div class="widgetBody flex">
+                    <article>
+                        <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at"> 12 DEC 12 </div>
+                                <div class="news_content"> 2 </div>
+                            </div>
+
+                            <div class="news_thumbnail">
+                                <img src="assets/images/dr.jpg" alt="imagem_noticia">
+                            </div>
+                            <div class="news_title">
+                                Lorem ipsum dolor sit amat velum
+                            </div>
+                            <div class="news_resume">
+                                It is a long established fact that a reader will be distracted
+                                by the readable content of a page when looking at its layout.
+                                The point of using Lorem Ipsum is that it has a more-or-lessmore-or-less
+                                normal distribution of letters, as opposed to using 'Content
+                                Here, content here', making it look like readable English.
+                                It is a long established fact that a reader will be distracted
+                                by the readable content of a page when looking at its layout.
+                                The point of using Lorem Ipsum is that it has a more-or-lessmore-or-less
+                                normal distribution of letters, as opposed to using 'Content
+                                Here, content here', making it look like readable English.
+                            </div>
+                        </a>    
+                    </article>
+
+                    <article>
+                        <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at"> 12 DEC 12 </div>
+                                <div class="news_content"> 2 </div>
+                            </div>
+
+                            <div class="news_thumbnail">
+                                <img src="assets/images/dr.jpg" alt="imagem_noticia">
+                            </div>
+                            <div class="news_title">
+                                Lorem ipsum dolor sit amat velum
+                            </div>
+                            <div class="news_resume">
+                                It is a long established fact that a reader will be distracted
+                                by the readable content of a page when looking at its layout.
+                                The point of using Lorem Ipsum is that it has a more-or-lessmore-or-less
+                                normal distribution of letters, as opposed to using 'Content
+                                Here, content here', making it look like readable English.
+                            </div>
+                        </a>    
+                    </article>
+
+                    <article>
+                        <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at"> 12 DEC 12 </div>
+                                <div class="news_content"> 2 </div>
+                            </div>
+
+                            <div class="news_thumbnail">
+                                <img src="assets/images/dr.jpg" alt="imagem_noticia">
+                            </div>
+                            <div class="news_title">
+                                Lorem ipsum dolor sit amat velum
+                            </div>
+                            <div class="news_resume">
+                                It is a long established fact that a reader will be distracted
+                                by the readable content of a page when looking at its layout.
+                                The point of using Lorem Ipsum is that it has a more-or-lessmore-or-less
+                                normal distribution of letters, as opposed to using 'Content
+                                Here, content here', making it look like readable English.
+                            </div>
+                        </a>    
+                    </article>
+
+                    <article>
+                        <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at"> 12 DEC 12 </div>
+                                <div class="news_content"> 2 </div>
+                            </div>
+
+                            <div class="news_thumbnail">
+                                <img src="assets/images/dr.jpg" alt="imagem_noticia">
+                            </div>
+                            <div class="news_title">
+                                Lorem ipsum dolor sit amat velum
+                            </div>
+                            <div class="news_resume">
+                                It is a long established fact that a reader will be distracted
+                                by the readable content of a page when looking at its layout.
+                                The point of using Lorem Ipsum is that it has a more-or-lessmore-or-less
+                                normal distribution of letters, as opposed to using 'Content
+                                Here, content here', making it look like readable English.
+                            </div>
+                        </a>    
+                    </article>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widgetTitle">
+                        <div class="widgetTitleText">Departments</div>
+                        <div class="widgetTitleBar"></div>                       
+                    </div>
+
+                    <div class="blocao">
+                        <div class="blocos"> <a href="">Pediatric</a> </div>
+                        <div class="blocos"> <a href="">Outpatient Surgery</a> </div>
+                        <div class="blocos"> <a href="">Gynaecological Clinical</a> </div>
+                        <div class="blocos"> <a href="">Cardiac Clinic</a> </div>
+                        <div class="blocos"> <a href="">Laryngological Clinic</a> </div>
+                        <div class="blocos"> <a href="">Ophthalmology Clinic </a> </div>
+                    </div>
+
+                    <div class="widgetTitle">
+                        <div class="widgetTitleText">Make An Appointment</div>
+                        <div class="widgetTitleBar"></div>
+                    </div>
+
+                    <div class="comunication">
+                        <div class="comText">
+                            <p> Lorem ipsum dolor sit amet, consectetur adpiscing elit. Ut volutpat rutrum eros sit amet sollicitudin. </p>
+                        </div>
+                        <div class="comAdress">
+                            <div class="adress">
+                                <img src="assets/images/phoneIcon.png" alt="Telephone"/>
+                                <p> by phone: <strong> 1-800-643-4300 </strong> </p>
+                            </div>
+                            <div class="adress">
+                                <img src="assets/images/mailIcon.png" alt="E-Mail">
+                                <p> by email: <a href=""> medicenter@mail.com </a></p>
+                            </div>
+                            <div class="adress">
+                                <img src="assets/images/formIcon.png" alt="Formulary">
+                                <p> or <a href=""> fill in the form </a> on our contact page</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footerMenu">
+                <div class="fm1">
+                    <a href="">
+                        <h3> Health Insurance </h3>
+                        <p> Here in medicenter we have individual &#x2192 </p>
+                    </a>
+                </div>
+                <div class="fm2">
+                    <a href="">
+                        <h3> Medical Records </h3>
+                        <p> Here in medicenter we have individual &#x2192 </p>
+                    </a>
+                </div>
+                <div class="fm3">
+                    <a href="">
+                        <h3> One Bill Pay </h3>
+                        <p> Here in medicenter we have individual &#x2192 </p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footerArea">
+                <div class="footerAreaItem">
+                    <div class="widget">
+                        <div class="widgetTitle">
+                            <div class="widgetTitleText"> Medicenter Clinic </div>
+                            <div class="widgetTitleBar"></div>                       
+                        </div>
+                        <div class="widgetBody_column">
+                            <div class="mediText"> <p> Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuda. </p> </div>
+                            <div class="adress_phone">
+                                <div class="endereço">
+                                    <p> Medicenter Clinic </p>
+                                    <p> 33 Farlane Street </p>
+                                    <p> Keilor East </p>
+                                    <p> VIC 3033, Australia </p>
+                                </div>
+                                <div class="contato">
+                                    <p class=""> +123 655 655</p>
+                                    <p class=""> +123 755 755 </p>
+                                    <a href=""> medicenter@mail.com </a>
+                                </div>
+                            </div>    
+                            <div class=" Icons ">
+                                <a href="">
+                                    <img src="assets/images/instIcon.png" alt="instagram">
+                                </a>
+                                <a class="github" href="">
+                                    <img src="assets/images/kisspng-github-user-source-code-fork-5aec08d125fb89.8676565415254181931556.png" alt="github">
+                                </a>
+                                <a href="">
+                                    <img src="assets/images/whatsIcon.png" alt="whatsapp">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerAreaItem">
+                    <div class="widget">
+                        <div class="widgetTitle">
+                            <div class="widgetTitleText"> Latest Posts </div>
+                            <div class="widgetTitleBar"></div>                       
+                        </div>
+                        <div class="widgetBody">
+                            <div class="post">
+                                <p>&#x2192</p>
+                                <p class="text"> Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuda. </p>
+                            </div>
+                            <div class="postDate">
+                                <p> 9 months ago </p>
+                            </div>
+
+                            <div class="post">
+                                <p>&#x2192</p>
+                                <p class="text"> Lorem Ipsum dolor sit amat velum. </p>
+                            </div>
+                            <div class="postDate">
+                                <p> 10 months ago </p>
+                            </div>
+
+                            <div class="post">
+                                <p>&#x2192</p>
+                                <p class="text"> Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuda. </p>
+                            </div>
+                            <div class="postDate">
+                                <p> about a year ago </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerAreaItem">
+                    <div class="widget">
+                        <div class="widgetTitle">
+                            <div class="widgetTitleText"> Latest Tweets </div>
+                            <div class="widgetTitleBar"></div>                     
+                        </div>
+                        <div class="widgetBody">
+                            <div class="post">
+                                <p>&#x2192</p>
+                                <p class="text tweet"> @chabodmathieu Ok, good! I'm glad to hear that! Have a nice day! </p>
+                            </div>
+                            <div class="postDate">
+                                <p> 11 days ago </p>
+                            </div>
+
+                            <div class="post">
+                                <p>&#x2192</p>
+                                <p class="text tweet"> @chabodmathieu Support for all our items is conducted through our Support Forum - <a href=""> http://t.co/1IntTxsJ </a> Please use the forum to get help. Thx </p>
+                            </div>
+                            <div class="postDate">
+                                <p> 11 days ago </p>
+                            </div>
+
+                            <div class="post">
+                                <p>&#x2192</p>
+                                <p class="text tweet"> A huge thanks to all who supported our work and to allof our buyers. Our Gym WordPress Theme - <a href=""> http://t.co/szgTwgVU </a> just reached 1000 sales! </p>
+                            </div>
+                            <div class="postDate">
+                                <p> 22 days ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footerCopy">
+            &copy; Copyright - <span>Medicenter Template</span> by <span>Quantical Labs</span>
+        </div>
+
+    </footer>
+</body>
+
+</html>
